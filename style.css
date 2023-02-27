@@ -5,7 +5,10 @@
 }
 
 body {
-    background-image: url('img/clima-e-tempo');
+    background-image: url(img/clima-e-tempo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    repeat: no-repeat;
     display: flex;
     min-height: 100vh;
     justify-content: center;
@@ -16,7 +19,7 @@ body {
 }
 
 h1 {
-    color: #FFF;
+    color: #555;
     margin: 20px 0;
 }
 
